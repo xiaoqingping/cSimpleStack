@@ -1,6 +1,7 @@
 # cSimpleStack
 用C实现的一个栈
 
+```c
 typedef struct stack_s stack_t;
 
 typedef struct stack_head_s {
@@ -14,3 +15,4 @@ struct stack_s {
     stack_t *back;              /* 指向后一个入栈节点的指针 */
     void *data;                 /* 节点数据 */
 };
+```
